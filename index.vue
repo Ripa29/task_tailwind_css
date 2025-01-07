@@ -55,7 +55,7 @@
 
 <!-- Card 1 -->
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group sm:hover:bg-[#1B4B36] md:hover:bg-[#1B4B36]
-                        xl:hover:bg-[#1B4B36]  
+                        xl:hover:bg-[#1B4B36]  lg:transition ease-in-out delay-200 
                         hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
@@ -70,7 +70,8 @@
 
 <!-- Card 2 -->
 
-                        <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
+                        <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] 
+                        lg:transition ease-in-out delay-200 border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
                                 class="card__heading  text-[#1B4B36] group-hover:text-[#EBFF3D] my-[15px] text-[20px] font-extrabold">
@@ -85,7 +86,7 @@
 <!-- Card 3 -->
 
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group sm:hover:bg-[#1B4B36] md:hover:bg-[#1B4B36] 
-                        xl:hover:bg-[#1B4B36] 
+                        xl:hover:bg-[#1B4B36] lg:transition ease-in-out delay-200 
                         hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
@@ -101,7 +102,8 @@
 <!-- Card 4 -->
 
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group md:hover:bg-[#1B4B36] sm:hover:bg-[#1B4B36]
-                        hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
+                        hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] 
+                        lg:transition ease-in-out delay-200  text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
                                 class="card__heading  text-[#1B4B36] group-hover:text-[#EBFF3D] my-[15px] text-[20px] font-extrabold">
@@ -113,7 +115,8 @@
                         </div>
 
                         <!-- Card 5 -->
-                        <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] sm:hover:bg-[#1B4B36] md:hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
+                        <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] lg:transition ease-in-out delay-200  
+                        sm:hover:bg-[#1B4B36] md:hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
                                 class="card__heading  text-[#1B4B36] group-hover:text-[#EBFF3D] my-[15px] text-[20px] font-extrabold">
@@ -124,7 +127,9 @@
                         </div>
 
                         <!-- Card 6 -->
-                        <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] md:hover:bg-[#1B4B36] sm:hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
+                        <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] 
+                        lg:transition ease-in-out delay-200  md:hover:bg-[#1B4B36] sm:hover:bg-[#1B4B36] 
+                        border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
                                 class="card__heading  text-[#1B4B36] sm:group-hover:text-[#EBFF3D] lg:group-hover:text-[#EBFF3D] 
@@ -142,7 +147,7 @@
                     <div class="flex justify-center flex-wrap items-center my-[50px] text-[#EBFF3D] 
                 text-[48px] font-[700] leading-[65px] cursor-pointer">
                         <button class="py-[16px] px-[30px] bg-[#1B4B36]
-                rounded-full hover:bg-[#1d573e] lg:hover:bg-[#1d573e] sm:hover:bg-[#1d573e]">অর্ডার করতে ক্লিক করুন
+                rounded-full lg:transition ease-in-out delay-200  hover:bg-[#1d573e] lg:hover:bg-[#1d573e] sm:hover:bg-[#1d573e]">অর্ডার করতে ক্লিক করুন
                             <Icon name="tabler:hand-finger-right" />
                         </button>
                     </div>
@@ -152,9 +157,12 @@
         </main>
 
         <!-- Section: Customer Experience -->
-        <section class="bg-white text-white py-12">
+        <section class="bg-white text-white py-12 md:p-16 lg:p-32 ">
             <div class="container mx-auto text-center">
-                <h2 class="text-2xl font-bold mb-8">আমাদের পণ্য নিয়ে গ্রাহকদের অভিজ্ঞতা</h2>
+
+                <p class="text-center md:text-[20px] font-bold m-5 lg:text-[25px] text-black text-4xl py-6">
+                    আমাদের পণ্য নিয়ে গ্রাহকদের অভিজ্ঞতা</p>
+
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <!-- Card 1 -->
                     <div class="py-7 bg-[#1F4E37] rounded-lg gap-2">
@@ -189,7 +197,7 @@
                 <div class="flex justify-center flex-wrap items-center my-[50px] text-[#1B4B36] 
                 text-[48px] font-[700] leading-[65px] cursor-pointer">
                     <button class="py-[16px] px-[30px] bg-[#EBFF3D]
-                rounded-full hover:bg-[#d8e941]">অর্ডার করতে ক্লিক করুন
+                rounded-full lg:transition ease-in-out delay-200  hover:bg-[#d8e941]">অর্ডার করতে ক্লিক করুন
                         <Icon name="tabler:hand-finger-right" />
                     </button>
                 </div>
