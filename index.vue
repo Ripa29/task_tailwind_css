@@ -1,19 +1,13 @@
 <template>
-
     <div class="font-['Hind_Siliguri']">
         <nav class="flex justify-center items-center my-10">
             <img src="/img/logo.png" alt="logo">
         </nav>
-
         <!-- Header Section -->
-
         <header class="w-[60%] mx-auto">
-
             <div class="max-w-5xl mx-auto">
-
                 <div class="sm:text-xl md:text-3xl">
-                    <p class="text-center text-[60px] leading-[100px] font-['Hind_Siliguri'] text-[#1B4B36]
-                font-bold">
+                    <p class="text-center text-[60px] leading-[100px] font-['Hind_Siliguri'] text-[#1B4B36] font-bold">
                         স্বাস্থ্য, ফিটনেস এবং প্রযুক্তি সবকিছু একসাথে!
                         "আপনার স্টাইল, আপনার স্মার্টওয়াচ।"</p>
                 </div>
@@ -38,11 +32,10 @@
                         <Icon name="tabler:hand-finger-right" />
                     </button>
                 </div>
-
-
             </div>
         </header>
 
+        <!-- Section: Features -->
         <main>
             <section class="w-full bg-[#FAFFCE] min-h-[1531px] mx-auto">
                 <div class="w-[75%] mx-auto py-[50px] ">
@@ -53,7 +46,7 @@
                     <div class="grid md:grid-cols-2 sm:grid-cols-1  grid-cols-1  lg:grid-cols-3 gap-8
                         justify-center items-center cursor-pointer p-6 ">
 
-<!-- Card 1 -->
+                        <!-- Card 1 -->
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group sm:hover:bg-[#1B4B36] md:hover:bg-[#1B4B36]
                         xl:hover:bg-[#1B4B36]  lg:transition ease-in-out delay-200 
                         hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] text-center 
@@ -68,8 +61,7 @@
                                 স্লিপ ট্র্যাকিং: গভীর ও হালকা ঘুমের স্তর বিশ্লেষণ করে সঠিক পরামর্শ।</p>
                         </div>
 
-<!-- Card 2 -->
-
+                        <!-- Card 2 -->
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group hover:bg-[#1B4B36] 
                         lg:transition ease-in-out delay-200 border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
@@ -83,7 +75,7 @@
                                 স্লিপ ট্র্যাকিং: গভীর ও হালকা ঘুমের স্তর বিশ্লেষণ করে সঠিক পরামর্শ।</p>
                         </div>
 
-<!-- Card 3 -->
+                        <!-- Card 3 -->
 
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group sm:hover:bg-[#1B4B36] md:hover:bg-[#1B4B36] 
                         xl:hover:bg-[#1B4B36] lg:transition ease-in-out delay-200 
@@ -99,11 +91,11 @@
                                 স্টেপ ট্র্যাকার: প্রতিদিনের পদক্ষেপ হিসেব করুন।</p>
                         </div>
 
-<!-- Card 4 -->
+                        <!-- Card 4 -->
 
                         <div class="max-w-[406px] min-h-[397px] border-[3px] p-15 group md:hover:bg-[#1B4B36] sm:hover:bg-[#1B4B36]
                         hover:bg-[#1B4B36] border-[#1B4B36] py-[10px] px-[10px] 
-                        lg:transition ease-in-out delay-200  text-center 
+                    lg:transition ease-in-out delay-200  text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
                             <h3
                                 class="card__heading  text-[#1B4B36] group-hover:text-[#EBFF3D] my-[15px] text-[20px] font-extrabold">
@@ -131,8 +123,7 @@
                         lg:transition ease-in-out delay-200  md:hover:bg-[#1B4B36] sm:hover:bg-[#1B4B36] 
                         border-[#1B4B36] py-[10px] px-[10px] text-center 
                         rounded-tl-[35px] rounded-br-[35px] cursor-pointer justify-center">
-                            <h3
-                                class="card__heading  text-[#1B4B36] sm:group-hover:text-[#EBFF3D] lg:group-hover:text-[#EBFF3D] 
+                            <h3 class="card__heading  text-[#1B4B36] sm:group-hover:text-[#EBFF3D] lg:group-hover:text-[#EBFF3D] 
                                 md:group-hover:text-[#EBFF3D] my-[15px] text-[20px] font-extrabold">
                                 মিউজিক এবং ক্যামেরা নিয়ন্ত্রণ</h3>
                             <p
@@ -140,18 +131,19 @@
                                 মিউজিক চালানো বা ক্যামেরা ক্লিক করুন আপনার স্মার্টওয়াচ থেকে।
                                 সহজ এবং সাবলীল ব্যবহারের সুবিধা।</p>
                         </div>
-
                     </div>
+
                     <!-- Button -->
 
                     <div class="flex justify-center flex-wrap items-center my-[50px] text-[#EBFF3D] 
                 text-[48px] font-[700] leading-[65px] cursor-pointer">
-                        <button class="py-[16px] px-[30px] bg-[#1B4B36]
-                rounded-full lg:transition ease-in-out delay-200  hover:bg-[#1d573e] lg:hover:bg-[#1d573e] sm:hover:bg-[#1d573e]">অর্ডার করতে ক্লিক করুন
+                        <button
+                            class="py-[16px] px-[30px] bg-[#1B4B36]
+                rounded-full lg:transition ease-in-out delay-200  hover:bg-[#1d573e] lg:hover:bg-[#1d573e] sm:hover:bg-[#1d573e]">অর্ডার
+                            করতে ক্লিক করুন
                             <Icon name="tabler:hand-finger-right" />
                         </button>
                     </div>
-
                 </div>
             </section>
         </main>
@@ -163,7 +155,7 @@
                 <p class="text-center md:text-[20px] font-bold m-5 lg:text-[25px] text-black text-4xl py-6">
                     আমাদের পণ্য নিয়ে গ্রাহকদের অভিজ্ঞতা</p>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 sm:grid-cols-1">
                     <!-- Card 1 -->
                     <div class="py-7 bg-[#1F4E37] rounded-lg gap-2">
                         <h3 class="text-xl font-bold text-start p-2">সন্তুষ্ট গ্রাহক</h3>
@@ -205,33 +197,40 @@
         </section>
 
         <!-- Footer -->
-        <footer>
-            <div class="footer-container justify-center flex gap-[50px] items-center p-10 bg-[#0C3200]">
-                <div class="footer-left text-white flex items-center gap-2 w-full">
-                    <Icon name="tabler:phone-call" class="text-[16px]" />
-                    <p class="text-white font-semibold">+880 103 234 350</p>
+        <footer class="">
+            <div class="footer-container flex justify-between items-center p-6 bg-[#0C3200]">
+                <!-- Phone Section -->
+                <div class="footer-left text-white flex items-center gap-3">
+                    <Icon name="tabler:phone-call" class="text-[18px]" />
+                    <p class="text-white font-medium">+880 103 234 350</p>
                 </div>
 
-                <div class="footer-logo items-center w-full">
-                    <img src="/img/foot_logo.png" alt="Footer Logo">
+                <!-- Logo Section -->
+                <div class="footer-logo">
+                    <img src="/img/foot_logo.png" alt="Footer Logo" class="max-w-[120px] mx-auto">
                 </div>
 
-                <div class="footer-right flex justify-end items-center  flex-wrap items-right my-[40px] text-[42px] gap-8 w-full">
-                    <div class="facebook_icon w-14 h-14 bg-white text-center p-1 rounded-full ">
+                <!-- Social Icons Section -->
+                <div class="footer-right flex gap-4">
+                    <div class="facebook_icon w-12 h-12 bg-white flex justify-center items-center rounded-full">
                         <Icon name="tabler:brand-facebook" />
                     </div>
-                    <div class="youtybe_icon w-14 h-14 bg-white text-center p-1 rounded-full ">
+                    <div class="youtube_icon w-12 h-12 bg-white flex justify-center items-center rounded-full">
                         <Icon name="tabler:brand-youtube-filled" />
                     </div>
-                    <div class="tictok_icon w-14 h-14 bg-white text-center p-1 rounded-full">
+                    <div class="tiktok_icon w-12 h-12 bg-white flex justify-center items-center rounded-full">
                         <Icon name="tabler:brand-tiktok" />
                     </div>
                 </div>
             </div>
 
-            <div class="footer-end text-center text-[#ebecdd] bg-[#0A2900] h-[60px] p-10">
-                <p>© 2024 All Rights Reserved by <span class="text-[#EBFF3D]">BDFunnelBuilder.</span> Unauthorized use
-                    prohibited.</p>
+            <!-- Footer Bottom -->
+            <div class="footer-end text-center text-[#EBECDD] bg-[#0A2900] py-4">
+                <p>
+                    © 2024 All Rights Reserved by
+                    <span class="text-[#EBFF3D] font-bold">BDFunnelBuilder</span>.
+                    Unauthorized use prohibited.
+                </p>
             </div>
         </footer>
 
